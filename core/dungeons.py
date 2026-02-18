@@ -3,7 +3,6 @@ from pathlib import Path
 
 CONFIG_PATH = Path("config.json")
 
-
 def load_config():
     with open(CONFIG_PATH, "r") as f:
         return json.load(f)
