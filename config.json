@@ -20,10 +20,10 @@
     "D": [10, 24],
     "C": [25, 49],
     "B": [50, 99],
-    "A": [100, 199],
-    "S": [200, 349],
-    "SS": [350, 599],
-    "SSS": [600, 999],
+    "A": [100, 200],
+    "S": [200, 350],
+    "SS": [350, 600],
+    "SSS": [600, 1000],
     "SSS_PLUS": [1000, -1]
   },
 
@@ -54,6 +54,31 @@
     "daily_limit": 10,
     "special_limit_per_week": 3,
     "boss_unlock_level": 25
+  },
+
+  "store": {
+    "starting_currency": 0
+  },
+
+  "items": {
+    "rarities": [
+      "common",
+      "uncommon",
+      "rare",
+      "epic",
+      "legendary",
+      "mythic"
+    ]
+  },
+
+  "dungeons": {
+    "unlock_level": 20,
+    "difficulty_multipliers": {
+      "easy": 1.0,
+      "normal": 1.5,
+      "hard": 2.2,
+      "nightmare": 3.5
+    }
   },
 
   "system": {
